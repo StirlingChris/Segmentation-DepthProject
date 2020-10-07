@@ -1,4 +1,4 @@
-# Segmentation-DepthProject
+# Segmentation-Depth Project
 This repository hosts code used througout the development of the stereo vision segmentation and depth deep learning system. 
 
 MaskCreation.py creates the semantic segmentation masks from the binary object masks created by Blender when rendering scenes. The masks are colour-coded consistently across scenes. The code, when run, prints out the colour codes used to code the objects masks but note that seeing as these masks are created using OpenCV these values are BGR as opposed to RGB so depending on how you pre-process your data you may need to reverse the contents of each tuple in order to get consistent results.
